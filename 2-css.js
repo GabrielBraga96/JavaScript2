@@ -1,0 +1,7 @@
+const button = document.querySelector(".main-button")
+
+button.style.backgroundColor = "white"
+
+const h1 = document.querySelector("h1")
+
+h1.style.fontSize = "100px"
