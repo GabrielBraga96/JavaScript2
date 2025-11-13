@@ -1,15 +1,11 @@
 
-const input = document.querySelector("main-input")
-const select = document.querySelector("select")
-const button = document.querySelector(".main-button")
+const input = document.querySelector("#main-input")
+const displayText = document.querySelector("#display-text")
 
-/*
-select.addEventListener("change", function (){
-    console.log("troquei de valor")
-})*/
-
-function troqueiValor(event){
-    console.log(event)
+function cliqueiNoBotao() {
+    const inputValue = input.value;
+    displayText.innerHTML = inputValue;
 }
 
-button.addEventListener("click", troqueiValor)
+const button = document.querySelector(".main-button");
+button.addEventListener("click", cliqueiNoBotao);

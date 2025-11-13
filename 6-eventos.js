@@ -16,7 +16,6 @@ function cliqueiNoBotao() {
 
 
 
-
 /*
 function cliqueiNoBotao() {
     alert("botão clikado com sucesso")
